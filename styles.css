@@ -1,0 +1,28 @@
+body {
+    background: lightsalmon;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: lightsteelblue;
+    -webkit-text-stroke: 1.5px black;
+}
+
+.games {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 
+        [left] 1fr
+        [middle1] 1fr
+        [middle2] 1fr
+        [right];
+}
+
+.game {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
